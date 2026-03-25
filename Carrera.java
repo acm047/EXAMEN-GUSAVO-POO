@@ -46,7 +46,7 @@ public class Carrera {
                     + c.getEquipo().getNombre() + ")");
             pos++;
         }
-        System.out.println("\n--- TIEMPO TOTAL POR EQUIPO ---");
+        System.out.println("\n TIEMPO TOTAL POR EQUIPO ");
         for (Equipo e : equipos) {
             int total = 0;
             for (Ciclista c : e.getCiclistas()) {
